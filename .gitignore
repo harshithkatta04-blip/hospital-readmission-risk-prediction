@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.joblib
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
