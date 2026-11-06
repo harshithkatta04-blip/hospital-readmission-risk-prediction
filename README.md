@@ -1,6 +1,4 @@
-
-@'
-# Hospital Readmission Risk Prediction using ANN
+﻿# Hospital Readmission Risk Prediction using ANN
 
 ## Project Overview
 
@@ -184,4 +182,3 @@ and honest evaluation of model limitations.
 
 Further external validation, calibration, fairness analysis,
 and clinical review are required before deployment.
-'@ | Set-Content README.md -Encoding utf8
