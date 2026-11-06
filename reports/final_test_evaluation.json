@@ -1,0 +1,31 @@
+{
+    "model": "reduced_features_weighted_mlp",
+    "decision_threshold": 0.6129040122032166,
+    "validation_alert_budget": 0.2,
+    "test_encounters": 14998,
+    "test_actual_readmissions": 1702,
+    "metrics": {
+        "Accuracy": 0.7763701826910254,
+        "Precision": 0.21942934782608695,
+        "Recall": 0.3795534665099882,
+        "F1": 0.2780886784330607,
+        "ROC-AUC": 0.6651385483348676,
+        "Average Precision": 0.22141671377004857,
+        "Log Loss": 0.6383378505706787,
+        "Flagged %": 19.6292839045206
+    },
+    "confusion_matrix": {
+        "true_negative": 10998,
+        "false_positive": 2298,
+        "false_negative": 1056,
+        "true_positive": 646
+    },
+    "limitations": [
+        "Historical observational hospital dataset",
+        "Patient-grouped random split, not temporal or external validation",
+        "Moderate discrimination and low precision",
+        "Misses a substantial proportion of readmissions",
+        "Class weighting may affect probability calibration",
+        "Not validated for clinical deployment"
+    ]
+}
